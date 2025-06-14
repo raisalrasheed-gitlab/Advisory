@@ -1,7 +1,7 @@
 import { FaChevronRight } from 'react-icons/fa';
 const AdvisoryBox = ({ services }) => {
   return (
-    <div className="grid  grid-cols-1 sm:grid-cols-1 2xl:grid-cols-3 w-10/12 mx-auto gap-10 cursor-pointer mb-10 container">
+    <div className="grid  grid-cols-1 sm:grid-cols-1 xl:grid-cols-3 w-10/12 mx-auto gap-10 cursor-pointer mb-10 container">
       {services.map((service, index) => (
         <div className="relative w-[350px] h-[300px] bg-gradient-to-br from-gray-100 to-gray-300 rounded-[30px] overflow-hidden  p-6 transition-transform duration-300 hover:scale-105 ">
           {service.icon}
