@@ -1,6 +1,4 @@
-import NavSection from './components/NavSection/NavSection.jsx';
 import AdvisoryExpertise from './pages/AdvisoryExpertise.jsx';
-import Check from './components/Check.jsx';
 
 const App = () => {
   return (
