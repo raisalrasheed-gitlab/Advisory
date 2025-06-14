@@ -26,24 +26,23 @@ const services = [
 
 const AdvisoryExpertise = () => {
   return (
-    <section className="bg-gradient-to-r from-white to-gray-100 py-10 px-6 md:px-16">
+    <section className="bg-gradient-to-r from-white to-white py-10 px-6 md:px-16 h-screen ">
       <h2 className="text-2xl font-semibold mb-2">
         Our Advisory <span className="text-yellow-500">Expertise</span>
       </h2>
-      <div className="relative bg-white rounded-xl overflow-hidden shadow-md mt-6  h-[564px]">
-        <div className="absolute inset-0 bg-black opacity-30 z-0" />
+      <div className="relative container bg-white  mt-6 h-[500px] rounded-3xl ">
         <img
           src={Background}
-          alt="Advisory Background"
-          className="z-0 w-full h-full object-cover object-center"
-        />
-        <div className="absolute top-6 left-6 right-6 text-white z-10">
-          <p className="text-lg font-semibold">
+          alt="Background"
+          className="w-full h-full object-cover rounded-lg shadow-lg"
+        />{' '}
+        <div className="absolute top-6 left-6 right-6 text-white z-10 p-10">
+          <p className="text-lg font-semibold w-100">
             Beyond the surface lies opportunity and Dot& help you bring it to
             light through an integrated approach. We support you in...
           </p>
         </div>
-        <div className="absolute z-10 text-red-400 top-10 w-full ">
+        <div className=" z-10 text-red-400  w-full absolute top-95 ">
           <AdvisoryBox services={services} />
         </div>
       </div>
